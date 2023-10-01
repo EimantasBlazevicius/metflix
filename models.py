@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Table, Column, ForeignKey, Integer, String, Boolean
+from sqlalchemy import create_engine, Table, Column, ForeignKey, Integer, String
 from sqlalchemy.orm import declarative_base, relationship
 
 eng = create_engine('sqlite:///movies.db')
